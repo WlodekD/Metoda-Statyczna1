@@ -26,8 +26,8 @@ namespace Zad._5._2
             Console.WriteLine("Podaj 'x': ");
             x = int.Parse(Console.ReadLine());
             if (Przedzial(a, b, x) == 0)
-                Console.WriteLine("x nie nale¿y do przedzia³u otwartego");
-            else Console.WriteLine("x NALE¯Y do przedzia³u");
+                Console.WriteLine("x nie nalezy do przedzialu otwartego");
+            else Console.WriteLine("x NALEZY do przedzialu");
             Console.ReadKey();
         }
     }
